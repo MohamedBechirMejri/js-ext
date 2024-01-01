@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import init from "..";
+import init from "../.build";
 
 init({ ignore: [] });
 
