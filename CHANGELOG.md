@@ -1,3 +1,7 @@
+## [0.0.5](https://github.com/MohamedBechirMejri/js-ext/compare/v0.0.4...v0.0.5) (2024-01-01)
+
+
+
 ## [0.0.4](https://github.com/MohamedBechirMejri/js-ext/compare/v0.0.3...v0.0.4) (2024-01-01)
 
 
