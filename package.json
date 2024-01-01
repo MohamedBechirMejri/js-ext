@@ -9,7 +9,7 @@
   "private": false,
   "type": "module",
   "scripts": {
-    "b": "bun build.ts",
+    "b": "rm -rf ./.build && bun build.ts",
     "test": "bun test --watch",
     "commit:changelog": "git add CHANGELOG.md && git commit -m \"docs: :memo: update changelog\" && git push",
     "lint": "eslint --ext mjs,js,jsx,ts,tsx,cjs --fix .",
