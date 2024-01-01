@@ -1,6 +1,6 @@
 {
   "name": "@mohamedbechirmejri/js-ext",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "module": "index.ts",
   "main": ".build/index.js",
   "files": [
@@ -9,7 +9,7 @@
   "private": false,
   "type": "module",
   "scripts": {
-    "b": "bun build index.ts --outdir ./.build",
+    "b": "bun build.ts",
     "test": "bun test --watch",
     "commit:changelog": "git add CHANGELOG.md && git commit -m \"docs: :memo: update changelog\" && git push",
     "lint": "eslint --ext mjs,js,jsx,ts,tsx,cjs --fix .",
@@ -23,6 +23,7 @@
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
     "bumpp": "^9.2.1",
+    "bun-plugin-dts": "^0.2.1",
     "bun-types": "latest",
     "conventional-changelog-cli": "^4.1.0",
     "eslint": "^8.56.0"

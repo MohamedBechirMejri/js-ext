@@ -9,4 +9,4 @@ const init = (config: { ignore: string[] }) => {
   });
 };
 
-export default init;
+export { init as default, methods };
