@@ -11,6 +11,20 @@ bard recommended i use lodash or a similar library, but i wanted to create my ow
 bun i @mohamedbechirmejri/js-ext
 ```
 
+## Features
+
+## Typescript support
+
+add the following to your tsconfig.json file
+
+```json
+{
+  "compilerOptions": {
+    "types": ["./node_modules/@mohamedbechirmejri/js-ext/.build/index.d.ts"]
+  }
+}
+```
+
 ## Usage
 
 ```js
