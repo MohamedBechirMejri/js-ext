@@ -1,10 +1,3 @@
-declare global {
-  interface String {
-    CAPITALIZE(): string;
-    FLIP(): string;
-  }
-}
-
 // Capitalize first letter of a string
 export const capitalize = () => {
   String.prototype.CAPITALIZE = function () {
