@@ -4,10 +4,22 @@
   "type": "module",
   "scripts": {
     "b": "bun build index.ts --outdir ./build",
-    "test": "bun test --watch"
+    "test": "bun test --watch",
+    "commit:changelog": "git add CHANGELOG.md && git commit -m \"docs: :memo: update changelog\" && git push",
+    "lint": "eslint --ext mjs,js,jsx,ts,tsx,cjs --fix .",
+    "release": "bun release:check && pnpm release:version && pnpm release:publish",
+    "release:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && npm run commit:changelog",
+    "release:check": "bun lint",
+    "release:publish": "pnpm -r publish --tag latest",
+    "release:version": "bumpp package.json --execute=\"bun release:changelog\" --commit \"build: :package: publish v%s\" --all"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "bumpp": "^9.2.1",
+    "bun-types": "latest",
+    "conventional-changelog-cli": "^4.1.0",
+    "eslint": "^8.56.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
