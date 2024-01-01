@@ -8,6 +8,8 @@
     "moduleResolution": "bundler",
     "moduleDetection": "force",
     "allowImportingTsExtensions": true,
+    "outDir": "./.build",
+    "declaration": true,
     "noEmit": false,
     "composite": true,
     "strict": true,
@@ -18,14 +20,15 @@
     "forceConsistentCasingInFileNames": true,
     "allowJs": true,
     "types": [
-      "bun-types" // add Bun global
+      "bun-types", // add Bun global
+      "./types/globals.d.ts"
     ],
-    "declaration": true,
     "emitDeclarationOnly": true,
   },
   "include": [
     "./tests/*",
     "./lib/*",
-    "./.build/*"
+    "./.build/*",
+    "./types/*"
   ],
 }
