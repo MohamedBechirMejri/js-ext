@@ -1,12 +1,15 @@
 {
   "name": "@mohamedbechirmejri/js-ext",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "module": "index.ts",
   "main": ".build/index.js",
+  "files": [
+    ".build"
+  ],
   "private": false,
   "type": "module",
   "scripts": {
-    "b": "bun build index.ts --outdir ./build",
+    "b": "bun build index.ts --outdir ./.build",
     "test": "bun test --watch",
     "commit:changelog": "git add CHANGELOG.md && git commit -m \"docs: :memo: update changelog\" && git push",
     "lint": "eslint --ext mjs,js,jsx,ts,tsx,cjs --fix .",
