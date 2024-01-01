@@ -1,7 +1,6 @@
 import dts from "bun-plugin-dts";
 import fs from "fs";
 
-// @ts-ignore
 await Bun.build({
   entrypoints: ["./index.ts"],
   outdir: "./.build",
