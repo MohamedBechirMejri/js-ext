@@ -3,6 +3,7 @@
   "version": "0.0.10",
   "module": "index.ts",
   "main": ".build/index.js",
+  "types": ".build/index.d.ts",
   "files": [
     ".build"
   ],
