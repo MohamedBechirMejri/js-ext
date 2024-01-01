@@ -1,3 +1,7 @@
+## [0.0.11](https://github.com/MohamedBechirMejri/js-ext/compare/v0.0.10...v0.0.11) (2024-01-01)
+
+
+
 ## [0.0.10](https://github.com/MohamedBechirMejri/js-ext/compare/v0.0.9...v0.0.10) (2024-01-01)
 
 - generate type definitions
