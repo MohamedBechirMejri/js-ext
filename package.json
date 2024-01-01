@@ -14,7 +14,7 @@
     "test": "bun test --watch",
     "commit:changelog": "git add CHANGELOG.md && git commit -m \"docs: :memo: update changelog\" && git push",
     "lint": "eslint --ext mjs,js,jsx,ts,tsx,cjs --fix .",
-    "release": "bun release:check && pnpm release:version && pnpm release:publish",
+    "release": "bun b && bun release:check && pnpm release:version && pnpm release:publish",
     "release:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && npm run commit:changelog",
     "release:check": "bun lint",
     "release:publish": "pnpm -r publish --tag latest",
