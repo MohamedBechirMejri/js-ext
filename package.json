@@ -1,6 +1,6 @@
 {
   "name": "@mbm/js-ext",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "module": "index.ts",
   "private": false,
   "type": "module",
@@ -25,5 +25,8 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
