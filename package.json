@@ -1,6 +1,6 @@
 {
   "name": "@mohamedbechirmejri/js-ext",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "module": "index.ts",
   "main": ".build/index.js",
   "types": ".build/index.d.ts",
