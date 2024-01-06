@@ -6,7 +6,7 @@ instead of having to create helper functions for every project, I decided to cre
 bard recommended i use lodash or a similar library, but i wanted to create my own library for fun. and utilize javascript's prototype system to avoid having to import functions from a library.
 
 ## Install
-
+ 
 ```bash
 bun i @mohamedbechirmejri/js-ext
 ```
