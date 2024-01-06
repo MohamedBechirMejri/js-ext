@@ -7,6 +7,6 @@ test("capitalize", () => {
   expect("test".CAPITALIZE()).toBe("Test");
 });
 
-test("flip", () => {
-  expect("test".FLIP()).toBe("tset");
+test("reverse", () => {
+  expect("test".REVERSE()).toBe("tset");
 });
