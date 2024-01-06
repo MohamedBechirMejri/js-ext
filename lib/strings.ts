@@ -5,11 +5,11 @@ export const capitalize = () => {
   };
 };
 
-// flip a string
-export const flip = () => {
-  String.prototype.FLIP = function () {
+// reverse a string
+export const reverse = () => {
+  String.prototype.REVERSE = function () {
     return this.split("").reverse().join("");
   };
 };
 
-export default { capitalize, flip };
+export default { capitalize, reverse };
