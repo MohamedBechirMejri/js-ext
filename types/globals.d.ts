@@ -9,12 +9,12 @@ declare global {
     CAPITALIZE(): string;
 
     /**
-     * Flip a string
+     * Reverse a string
      * @returns {string}
      * @example
-     * "hello world".FLIP(); // dlrow olleh
+     * "hello world".REVERSE(); // dlrow olleh
      */
-    FLIP(): string;
+    REVERSE(): string;
   }
 }
 export {};
