@@ -45,4 +45,15 @@ init({ ignore: ["CAPITALIZE"] });
 "test".CAPITALIZE(); // Test
 ```
 
-the lib shouldn't be used now since it's still in development. docs will be added once the lib is ready for use.
+## Functions
+
+> you can use your IDE's intellisense to see all the functions
+
+> the library also includes JSDOC comments for all the functions
+
+### String
+
+```js
+"test".CAPITALIZE(); // Test
+"test".REVERSE(); // tset
+```
